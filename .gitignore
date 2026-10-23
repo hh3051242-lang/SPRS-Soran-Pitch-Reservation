@@ -1,0 +1,21 @@
+# Operating System Files
+Thumbs.db
+.DS_Store
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables & Secrets (CRITICAL SECURITY)
+.env
+.env.local
+*.log
+config/secrets.json
+
+# Temporary & Cache Files
+*.tmp
+*.bak
+dist/
+node_modules/
